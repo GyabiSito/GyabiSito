@@ -42,4 +42,5 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 
 ## 📫 Conectemos
 
-- GitHub: [@GyabiSito](https://github.com/GyabiSito)
+- LinkedIn: [José Gabriel Hernández](https://www.linkedin.com/in/jose-gabriel-hernandez-512899251/)
+
