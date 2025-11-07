@@ -29,7 +29,7 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 > Guía práctica y progresiva de **Spring Framework** y **Spring Boot** con apuntes y ejemplos. Cubre desde IoC/DI y ciclo de vida de beans, hasta **Spring MVC**, **AOP**, **JDBC/ORM**, **Spring Data JPA**, **REST** y preparación para **entrevistas**.
 
 ### 🛠️ [LaravelCurso](https://github.com/GyabiSito/LaravelCurso)
-> Laboratorio de **Laravel** con ejemplos modulares y prácticos: **auth (Breeze/Jetstream)**, **Blade**, **Eloquent/relaciones**, **CRUD/API**, **Eventos/Listeners**, **Mail**, **Storage**, **Localización**, **Testing**, **Livewire**, **Inertia**, **CSV/Excel**, **Asset Bundling & PDF**, **Middleware**, **Domain Drive Design**.
+> Laboratorio de **Laravel** con ejemplos modulares y prácticos: **auth (Breeze/Jetstream)**, **Blade**, **Eloquent/relaciones**, **CRUD/API**, **Eventos/Listeners**, **Mail**, **Storage**, **Localización**, **Testing**, **Livewire**, **Inertia**, **CSV/Excel**, **Asset Bundling & PDF**, **Middleware**
 
 ### 🤖 [AprendiendoSelenium](https://github.com/GyabiSito/AprendiendoSelenium)
 > Guía práctica y modular para **automatizar pruebas web con Python + Selenium**: desde selectores y waits hasta **POM**, **DDT con Excel**, ejecución paralela y **BDD con behave**.
