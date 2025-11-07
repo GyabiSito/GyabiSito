@@ -8,7 +8,7 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 
 ## 🛠️ Tecnologías con las que estoy trabajando o aprendiendo
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-E74430?style=flat-square&logo=laravel&logoColor=white)
