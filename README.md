@@ -6,6 +6,10 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 
 ---
 
+
+
+
+
 ## 🛠️ Tecnologías con las que estoy trabajando o aprendiendo
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
@@ -19,6 +23,37 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 ---
 
 ## 🚀 Proyectos destacados
+
+
+### 🛒 Proyecto E-commerce en PHP 8
+
+> ✅ Fullstack • 🔐 Seguro • 🛠️ Modular • 🧠 Aprendizaje real
+
+El año pasado desarrollé un sistema **E-commerce completo sin frameworks**, que recién ahora me animé a compartir.  
+Fue un proyecto personal donde trabajé todo desde cero con:
+
+- ⚙️ **PHP 8** (sin Laravel, sin frameworks)  
+- 🛢️ **MariaDB / MySQL**  
+- 🎨 **Bootstrap 5**, **JavaScript**, **jQuery**  
+- 🔄 **AJAX + API interna**  
+- 💳 Integración con **PayPal**, **MercadoPago** y **DLocal**  
+- 🧾 Informes en PDF, favoritos, historial, ofertas, y mucho más  
+- 🔐 Seguridad con `.htaccess`, tokens, protección de archivos sensibles
+
+🎯 ¿Qué tiene?  
+Carrito funcional, sistema de usuarios con verificación por email, variantes de productos, panel de administración, lógica de stock y validaciones para evitar inconsistencias.  
+También apliqué principios de arquitectura limpia y separación de responsabilidades.
+
+---
+
+📂 **Código en GitHub**  
+🔗 [github.com/GyabiSito/ecommerce](https://github.com/GyabiSito/ecommerce)
+
+🎥 **Video explicando cómo lo hice**  
+📺 [youtube.com/watch?v=coprFpWF-Co](https://www.youtube.com/watch?v=coprFpWF-Co)
+
+---
+
 
 ### 🔧 [DesignPatterns](https://github.com/GyabiSito/DesignPatterns)
 > Playground de **patrones de diseño** (GoF) implementados mayormente en **Java** y algunos en **C++**, con ejemplos prácticos y notas propias.
