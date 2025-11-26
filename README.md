@@ -77,6 +77,8 @@ Aplicación **full stack** desarrollada por un equipo de 5 personas con:
 🎥 **Video explicativo**
 📺 *[...]*
 
+---
+
 ### ✈️ Sistema de Gestión de Aerolíneas – UTEC (2025)
 
 > ✈️ Gestión de aerolíneas • 🧱 Clean Architecture • 🤝 Liderazgo técnico
