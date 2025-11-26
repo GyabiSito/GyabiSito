@@ -47,10 +47,57 @@ También apliqué principios de arquitectura limpia y separación de responsabil
 ---
 
 📂 **Código en GitHub**  
-🔗 [github.com/GyabiSito/ecommerce](https://github.com/GyabiSito/ecommerce)
+🔗 [Código](https://github.com/GyabiSito/ecommerce)
 
 🎥 **Video explicando cómo lo hice**  
-📺 [youtube.com/watch?v=coprFpWF-Co](https://www.youtube.com/watch?v=coprFpWF-Co)
+📺 [Video Demo](https://www.youtube.com/watch?v=coprFpWF-Co)
+
+---
+
+### 🎓 Proyecto de Tesis – UTU (2022)
+
+> 🧩 Trabajo en equipo • 📚 Documentación completa • 🐧 Entorno Linux
+
+Aplicación **full stack** desarrollada por un equipo de 5 personas con:
+
+* ⚙️ **PHP**, **MySQL**, **HTML**, **CSS**, **JavaScript**
+* 🗂️ Arquitectura basada en capas
+* 🔄 Control de versiones con **Git/GitHub**
+* 📈 Documentación: Pert, Gantt, análisis de requerimientos funcionales y no funcionales
+* 💾 Base de datos en servidor **Linux**
+* 🐚 Menú interactivo en **Shell Script** para facilitar la experiencia del usuario
+
+🏆 Premiado como **Mejor Proyecto de Tesis 2022**
+
+---
+
+📂 **Código en GitHub**
+🔧 *[...]*
+
+🎥 **Video explicativo**
+📺 *[...]*
+
+### ✈️ Sistema de Gestión de Aerolíneas – UTEC (2025)
+
+> ✈️ Gestión de aerolíneas • 🧱 Clean Architecture • 🤝 Liderazgo técnico
+
+Aplicación **completa** desarrollada por un equipo de 4 personas para administrar operaciones aéreas:
+
+* 💻 Interfaz de escritorio con **Java Swing**
+* 🌐 Backend con **JSP** y módulo **mobile**
+* 🔗 Comunicación mediante **web services SOAP**
+* 🔐 Autenticación y autorización usando **JWT**
+* 🧠 Aplicación de **Clean Architecture**
+
+🧑‍💼 Rol de **Líder Técnico**: brindé soporte y guía a los compañeros con menor experiencia en Java, asegurando calidad de código y buenas prácticas.
+
+---
+
+📂 **Código en GitHub**
+🔧 *[...]*
+
+🎥 **Video explicativo**
+📺 *[...]*
 
 ---
 
