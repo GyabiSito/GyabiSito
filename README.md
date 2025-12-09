@@ -101,7 +101,7 @@ Aplicación **completa** desarrollada por un equipo de 4 personas para administr
 🔧  [Servidor Web](https://github.com/volando-uy/app-web)
 
 🎥 **Video explicativo**
-📺 *[...]*
+📺 *[[Video](https://www.youtube.com/watch?v=4ouBXtXeoQg)]*
 
 ---
 
