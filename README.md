@@ -69,6 +69,7 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 🔗 [Frontend](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Frontend)
 
 🔗 [Admin](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Admin)
+
 ---
 
 ### ✈️ Sistema de Gestión de Aerolíneas – UTEC (2025)
