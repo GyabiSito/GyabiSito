@@ -99,6 +99,8 @@ Aplicación **completa** desarrollada por un equipo de 4 personas para administr
 
 📺 [Video Demo](https://www.youtube.com/watch?v=4ouBXtXeoQg)
 
+---
+
 ### 🛒 Proyecto E-commerce en PHP 8
 
 > ✅ Fullstack • 🔐 Seguro • 🛠️ Modular • 🧠 Aprendizaje real
