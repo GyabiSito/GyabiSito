@@ -57,6 +57,7 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 
 
 🎥 **Video demo (deep dive técnico)**  
+
 📺 [YouTube – Demo técnica completa](https://www.youtube.com/watch?v=N1b5PfcdJiA)
 
 📂 **Repositorio público (versión sanitizada)**  
