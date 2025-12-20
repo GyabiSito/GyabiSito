@@ -24,6 +24,70 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 
 ## 🚀 Proyectos destacados
 
+### 🛒 Demo Ecommerce en Producción — Angular + Laravel
+
+> 🏗️ Arquitectura real • 🚀 Producción • 🧠 Decisiones técnicas • 📦 Fullstack
+
+Proyecto **e-commerce real desarrollado para un cliente y actualmente en producción**, del cual armé una **versión sanitizada** para poder compartirlo públicamente como parte de mi portfolio.
+
+Es, hasta el momento, **el proyecto más grande y complejo que desarrollé**, tanto por alcance funcional como por decisiones de arquitectura, performance y operación.
+
+No es un proyecto académico ni una demo de features:  
+la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en producción**.
+
+#### 🔧 Stack y enfoque técnico
+
+- **Frontend Store:** Angular 19 + SSR (SEO real y performance)
+- **Frontend Admin:** Angular 16, completamente separado del store
+- **Backend:** Laravel API REST sobre PHP-FPM
+- **Redis:** cache distribuido, colas y rate limiting
+- **Jobs y Scheduler:** procesamiento asíncrono y automatización
+- **Docker:** entornos reproducibles (desarrollo y producción)
+- **Infra:** Nginx + Cloudflare como capas de entrada y control
+
+
+#### 🎯 Problemas reales que resuelve
+
+- Respuesta estable bajo carga
+- SEO real incluso con filtros dinámicos
+- Cacheo consciente con invalidación controlada
+- Tareas pesadas fuera del request HTTP
+- Separación clara de responsabilidades
+- Infraestructura fácil de levantar, replicar y operar
+
+
+🎥 **Video demo (deep dive técnico)**  
+📺 [YouTube – Demo técnica completa](https://www.youtube.com/watch?v=N1b5PfcdJiA)
+
+📂 **Repositorio público (versión sanitizada)**  
+🔗 [Repo Principal](https://github.com/GyabiSito/DemoEcommerceAngularLaravel)
+🔗 [Api](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Api)
+🔗 [Frontend](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Frontend)
+🔗 [Admin](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Admin)
+---
+
+### ✈️ Sistema de Gestión de Aerolíneas – UTEC (2025)
+
+> ✈️ Gestión de aerolíneas • 🧱 Clean Architecture • 🤝 Liderazgo técnico
+
+Aplicación **completa** desarrollada por un equipo de 4 personas para administrar operaciones aéreas:
+
+* 💻 Interfaz de escritorio con **Java Swing**
+* 🌐 Backend con **JSP** y módulo **mobile**
+* 🔗 Comunicación mediante **web services SOAP**
+* 🔐 Autenticación y autorización usando **JWT**
+* 🧠 Aplicación de **Clean Architecture**
+
+🧑‍💼 Rol de **Líder Técnico**: brindé soporte y guía a los compañeros con menor experiencia en Java, asegurando calidad de código y buenas prácticas.
+
+
+📂 **Código en GitHub**
+🔧  [Rama Principal](https://github.com/volando-uy/volando-app)
+🔧  [Servidor Central](https://github.com/volando-uy/app-central)
+🔧  [Servidor Web](https://github.com/volando-uy/app-web)
+
+🎥 **Video explicativo**
+📺 [Video Demo](https://www.youtube.com/watch?v=4ouBXtXeoQg)
 
 ### 🛒 Proyecto E-commerce en PHP 8
 
@@ -44,7 +108,6 @@ Fue un proyecto personal donde trabajé todo desde cero con:
 Carrito funcional, sistema de usuarios con verificación por email, variantes de productos, panel de administración, lógica de stock y validaciones para evitar inconsistencias.  
 También apliqué principios de arquitectura limpia y separación de responsabilidades.
 
----
 
 📂 **Código en GitHub**  
 🔗 [Código](https://github.com/GyabiSito/ecommerce)
@@ -69,39 +132,12 @@ Aplicación **full stack** desarrollada por un equipo de 5 personas con:
 
 🏆 Premiado como **Mejor Proyecto de Tesis 2022**
 
----
 
 📂 **Código en GitHub**
 🔧 *[...]*
 
 🎥 **Video explicativo**
 📺 *[...]*
-
----
-
-### ✈️ Sistema de Gestión de Aerolíneas – UTEC (2025)
-
-> ✈️ Gestión de aerolíneas • 🧱 Clean Architecture • 🤝 Liderazgo técnico
-
-Aplicación **completa** desarrollada por un equipo de 4 personas para administrar operaciones aéreas:
-
-* 💻 Interfaz de escritorio con **Java Swing**
-* 🌐 Backend con **JSP** y módulo **mobile**
-* 🔗 Comunicación mediante **web services SOAP**
-* 🔐 Autenticación y autorización usando **JWT**
-* 🧠 Aplicación de **Clean Architecture**
-
-🧑‍💼 Rol de **Líder Técnico**: brindé soporte y guía a los compañeros con menor experiencia en Java, asegurando calidad de código y buenas prácticas.
-
----
-
-📂 **Código en GitHub**
-🔧  [Rama Principal](https://github.com/volando-uy/volando-app)
-🔧  [Servidor Central](https://github.com/volando-uy/app-central)
-🔧  [Servidor Web](https://github.com/volando-uy/app-web)
-
-🎥 **Video explicativo**
-📺 [Video Demo](https://www.youtube.com/watch?v=4ouBXtXeoQg)
 
 ---
 
