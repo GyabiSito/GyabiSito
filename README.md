@@ -61,9 +61,13 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 📺 [YouTube – Demo técnica completa](https://www.youtube.com/watch?v=N1b5PfcdJiA)
 
 📂 **Repositorio público (versión sanitizada)**  
+
 🔗 [Repo Principal](https://github.com/GyabiSito/DemoEcommerceAngularLaravel)
+
 🔗 [Api](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Api)
+
 🔗 [Frontend](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Frontend)
+
 🔗 [Admin](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Admin)
 ---
 
@@ -84,10 +88,13 @@ Aplicación **completa** desarrollada por un equipo de 4 personas para administr
 
 📂 **Código en GitHub**
 🔧  [Rama Principal](https://github.com/volando-uy/volando-app)
+
 🔧  [Servidor Central](https://github.com/volando-uy/app-central)
+
 🔧  [Servidor Web](https://github.com/volando-uy/app-web)
 
 🎥 **Video explicativo**
+
 📺 [Video Demo](https://www.youtube.com/watch?v=4ouBXtXeoQg)
 
 ### 🛒 Proyecto E-commerce en PHP 8
