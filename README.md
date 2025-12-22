@@ -172,6 +172,8 @@ Aplicación **full stack** desarrollada por un equipo de 5 personas con:
 ### 🤖 [AprendiendoSelenium](https://github.com/GyabiSito/AprendiendoSelenium)
 > Guía práctica y modular para **automatizar pruebas web con Python + Selenium**: desde selectores y waits hasta **POM**, **DDT con Excel**, ejecución paralela y **BDD con behave**.
 
+### 🅰️ [AprendiendoAngular](https://github.com/GyabiSito/AprendiendoAngular)
+> Colección de proyectos prácticos en Angular que documentan un aprendizaje progresivo del framework: desde fundamentos y componentización, pasando por RxJS, state management (NGXS), routing y guards, consumo de APIs REST, formularios, Angular CDK (Drag & Drop, Virtual Scroll), performance frontend y patrones comunes usados en aplicaciones reales.
 ---
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GyabiSito&layout=compact&theme=radical)
