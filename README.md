@@ -44,6 +44,7 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 - **Jobs y Scheduler:** procesamiento asíncrono y automatización
 - **Docker:** entornos reproducibles (desarrollo y producción)
 - **Infra:** Nginx + Cloudflare como capas de entrada y control
+- **Deploy:** Hetzner VPS
 
 
 #### 🎯 Problemas reales que resuelve
