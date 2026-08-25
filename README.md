@@ -21,10 +21,95 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 
 ---
+## Proyectos Productivos
 
-## 🚀 Proyectos destacados
+### 🌿 Komorebi — E-commerce Full Stack
 
-### 🛒 Demo Ecommerce en Producción — Angular + Laravel
+> 🛒 E-commerce real • 💳 MercadoPago • ⚡ Redis y colas • 🐳 Docker • 🚀 Producción
+
+**Komorebi** es una plataforma e-commerce full stack desarrollada para un cliente real, con una arquitectura separada entre la tienda pública, el panel administrativo y una API backend.
+
+El proyecto cubre el flujo completo de una tienda online: catálogo, usuarios, carrito, compras, pagos, stock, gestión administrativa, notificaciones y operación en infraestructura real.
+
+Además del desarrollo funcional, trabajé sobre aspectos de **autenticación, procesamiento asíncrono, webhooks de pago, correos transaccionales, seguridad, despliegue con Docker y configuración de reverse proxy**.
+
+#### 🔧 Stack y arquitectura
+
+* **Store:** Angular
+* **Panel administrativo:** Angular
+* **Backend:** Laravel + API REST
+* **Base de datos:** PostgreSQL
+* **Redis:** cache, colas y soporte para procesos asíncronos
+* **Workers y Scheduler:** procesamiento de jobs y tareas programadas
+* **MercadoPago:** checkout y confirmación de pagos mediante webhooks
+* **SMTP2GO:** envío de correos transaccionales y administrativos
+* **Docker:** servicios contenerizados para desarrollo y producción
+* **Nginx:** reverse proxy y gateway de entrada
+* **Infraestructura:** Hetzner VPS + Cloudflare
+* **Dominio:** [komorebi.com.uy](https://komorebi.com.uy/)
+
+#### 🎯 Funcionalidades principales
+
+* 🛍️ Catálogo y navegación de productos
+* 🔎 Búsqueda y filtrado
+* 👤 Registro, login y gestión de cuenta
+* 🛒 Carrito de compras
+* 💳 Integración con MercadoPago
+* 🔔 Confirmación de pagos mediante webhooks
+* 📦 Gestión de pedidos y estados
+* 📊 Panel administrativo
+* 🏷️ Gestión de productos, categorías y stock
+* 📈 Métricas e información comercial para administración
+* ✉️ Correos transaccionales y notificaciones administrativas
+* ⚡ Procesamiento asíncrono mediante Redis y queues
+* 🔐 Autenticación y autorización entre Store, Admin y API
+* 🐳 Deployment reproducible mediante Docker
+
+#### 🧠 Algunos desafíos técnicos
+
+Uno de los puntos más importantes fue diseñar correctamente el flujo de compra para que el estado del pedido no dependa únicamente de lo que ocurre en el navegador.
+
+La confirmación del pago se procesa desde backend mediante **webhooks de MercadoPago**, permitiendo actualizar pedidos y stock de forma confiable incluso cuando el usuario cierra la página o la respuesta del checkout no vuelve correctamente al frontend.
+
+También se trabajó sobre:
+
+* separación entre Store, Admin y API;
+* manejo de autenticación y autorización;
+* sincronización de stock después de las compras;
+* jobs y tareas programadas fuera del request HTTP;
+* correos de confirmación y notificaciones administrativas;
+* despliegue de múltiples servicios Docker;
+* configuración de Nginx y Cloudflare como capas de entrada;
+* diagnóstico de incidencias reales en producción mediante logs y contenedores.
+
+#### 🏗️ Infraestructura
+
+```text
+Usuario
+   ↓
+Cloudflare
+   ↓
+Edge Nginx
+   ↓
+Hetzner VPS
+   │
+   ├── Angular Store
+   ├── Angular Admin
+   ├── Laravel API
+   ├── API Nginx
+   ├── PostgreSQL
+   ├── Redis
+   ├── Queue Workers
+   └── Scheduler
+```
+
+🔗 **Web**
+
+[Komorebi](https://komorebi.com.uy/)
+
+---
+
+### 🛒 Camba  — Angular + Laravel
 
 > 🏗️ Arquitectura real • 🚀 Producción • 🧠 Decisiones técnicas • 📦 Fullstack
 
@@ -71,6 +156,115 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 🔗 [Frontend](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Frontend)
 
 🔗 [Admin](https://github.com/GyabiSito/DemoEcommerceAngularLaravel-Admin)
+
+
+---
+
+### 📅 ProConnect — Plataforma SaaS de Servicios Profesionales
+
+> 🚀 SaaS multiusuario • 📅 Reservas y agenda • 💳 Pagos • ⚡ Tiempo real • 🎥 Videollamadas
+
+**ProConnect** es una plataforma SaaS full stack desarrollada para gestionar de punta a punta la contratación de servicios profesionales.
+
+El sistema conecta **clientes, profesionales y administradores** dentro de una misma plataforma, permitiendo gestionar servicios, disponibilidad, reservas, pagos, sesiones remotas, paquetes y reseñas.
+
+El proyecto fue diseñado con una arquitectura desacoplada y desplegado en infraestructura real, cubriendo no solamente frontend y backend, sino también **concurrencia, tiempo real, integraciones externas, seguridad, Docker, CI/CD y operación en producción**.
+
+#### 🔧 Stack y arquitectura
+
+* **Frontend:** Angular + TypeScript + TailwindCSS
+* **Backend:** Laravel 13 + API REST
+* **Base de datos principal:** PostgreSQL
+* **Redis:** cache, colas, locks y soporte para procesos asíncronos
+* **Laravel Horizon:** procesamiento y monitoreo de jobs
+* **MongoDB:** activity logs y auditoría
+* **Laravel Reverb:** comunicación en tiempo real mediante WebSockets
+* **LiveKit / WebRTC:** videollamadas integradas
+* **MercadoPago:** pagos y confirmación mediante webhooks
+* **OAuth:** Google y GitHub
+* **Autenticación:** JWT, verificación de email y recuperación de contraseña
+* **Docker:** servicios contenerizados y entornos reproducibles
+* **Infraestructura:** Hetzner VPS + Nginx + Cloudflare
+* **CI/CD:** GitHub Actions
+
+#### 🎯 Funcionalidades principales
+
+* 👤 Roles de **cliente, profesional y administrador**
+* 🔎 Marketplace y búsqueda de servicios profesionales
+* 🧑‍💼 Gestión de perfiles profesionales
+* 🛠️ Creación y administración de servicios
+* 🌐 Modalidades presencial, remota e híbrida
+* 🗺️ Servicios asociados a ubicación geográfica
+* 📅 Configuración avanzada de disponibilidad
+* ⏱️ Generación automática de horarios reservables
+* 🔒 Prevención de dobles reservas mediante transacciones y locking
+* 🔄 Ciclo completo de estados de una reserva
+* 💳 Integración con MercadoPago
+* ⚡ Actualizaciones en tiempo real mediante WebSockets
+* 🎥 Videollamadas asociadas a reservas mediante LiveKit
+* 📦 Venta y gestión de paquetes de sesiones
+* ⭐ Sistema de reseñas
+* 🔔 Notificaciones
+* 📊 Agenda profesional
+* 🛡️ Policies, ownership y autorización desde backend
+* 🧰 Panel administrativo
+* 📝 Auditoría y activity logs
+
+#### 🧠 Algunos desafíos técnicos
+
+Uno de los principales desafíos fue diseñar correctamente el sistema de disponibilidad y reservas.
+
+Los clientes **no pueden reservar horarios arbitrarios**. El sistema genera slots a partir de las reglas configuradas por cada profesional, teniendo en cuenta disponibilidad, duración del servicio, reservas existentes y diferentes restricciones.
+
+Al momento de confirmar una reserva, el backend vuelve a validar el horario dentro de una operación transaccional y aplica mecanismos de locking para reducir condiciones de carrera y prevenir dobles reservas.
+
+También se trabajó sobre:
+
+* separación real entre frontend Angular y backend Laravel;
+* autorización por roles y ownership de recursos;
+* procesamiento de pagos basado en webhooks;
+* sincronización de cambios en tiempo real;
+* ejecución de tareas asíncronas mediante Redis y Horizon;
+* integración de sesiones WebRTC;
+* separación de auditoría respecto de los datos transaccionales;
+* deployment de múltiples servicios Docker detrás de reverse proxies.
+
+#### 🏗️ Infraestructura
+
+```text
+Usuario
+   ↓
+Cloudflare
+   ↓
+Edge Nginx
+   ↓
+Hetzner VPS
+   │
+   ├── Angular SPA
+   ├── Laravel API
+   ├── PostgreSQL
+   ├── Redis
+   ├── Horizon
+   ├── Scheduler
+   ├── MongoDB
+   ├── Laravel Reverb
+   └── LiveKit
+```
+
+🔗 **Web**
+
+[ProConnect](https://tallerphp.gyabisito.dev/)
+
+🎥 **Video — Presentación técnica y funcional**
+
+📺 *[Link](https://www.youtube.com/watch?v=b4GW1Y4OqFo)*
+
+📂 **Código**
+
+🔗 *[Repositorio](https://github.com/ProConnect-PHP/)*
+
+
+## 🚀 Proyectos destacados
 
 ---
 
