@@ -24,9 +24,9 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 ## Proyectos Productivos
 
 ### 🌿 Komorebi — E-commerce Full Stack
-[Komorebi](https://komorebi.com.uy/)
-
 > 🛒 E-commerce real • 💳 MercadoPago • ⚡ Redis y colas • 🐳 Docker • 🚀 Producción
+
+[Komorebi](https://komorebi.com.uy/)
 
 **Komorebi** es una plataforma e-commerce full stack desarrollada para un cliente real, con una arquitectura separada entre la tienda pública, el panel administrativo y una API backend.
 
@@ -106,9 +106,10 @@ Hetzner VPS
 ---
 
 ### 🛒 Camba  — Angular + Laravel
-[Camba](https://www.camba.com.uy/)
 
 > 🏗️ Arquitectura real • 🚀 Producción • 🧠 Decisiones técnicas • 📦 Fullstack
+
+[Camba](https://www.camba.com.uy/)
 
 Proyecto **e-commerce real desarrollado para un cliente y actualmente en producción**, del cual armé una **versión sanitizada** para poder compartirlo públicamente como parte de mi portfolio.
 
@@ -158,9 +159,10 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 ---
 
 ### 📅 ProConnect — Plataforma SaaS de Servicios Profesionales
-[ProConnect](https://tallerphp.gyabisito.dev/)
 
 > 🚀 SaaS multiusuario • 📅 Reservas y agenda • 💳 Pagos • ⚡ Tiempo real • 🎥 Videollamadas
+
+[ProConnect](https://tallerphp.gyabisito.dev/)
 
 **ProConnect** es una plataforma SaaS full stack desarrollada para gestionar de punta a punta la contratación de servicios profesionales.
 
