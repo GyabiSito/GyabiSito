@@ -106,6 +106,20 @@ Every paddle hit **shrinks the paddle and accelerates the ball**, while players 
 
 ---
 
+### 🐑 Maga(O)veja — Rhythm Survival Game
+
+Rhythm-based survival game where movement, dodging, and defensive mechanics are synchronized with the game's beat.
+
+Players control a sheep while avoiding waves of hostile scissors and reacting to different rhythm phases, including **standard attacks, defensive shields, and explosive projectile patterns**. The game also includes a tutorial and custom level configuration system.
+
+**Tech:** Godot · GDScript · Rhythm Systems · Custom Level Configuration · Game Development
+
+🔗 [Live Application](https://tallervideojuego.gyabisito.dev/)
+
+<img width="1672" height="941" alt="PreviewVideojuego" src="https://github.com/user-attachments/assets/1c1a0683-7ebe-420b-a003-152cd868dfda" />
+
+---
+
 # 📚 Other Projects
 
 ### 🛒 [PHP E-commerce](https://github.com/GyabiSito/ecommerce)
