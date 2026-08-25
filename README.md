@@ -24,6 +24,7 @@ Me encanta meterme en el código, entender cómo funciona todo desde adentro y c
 ## Proyectos Productivos
 
 ### 🌿 Komorebi — E-commerce Full Stack
+[Komorebi](https://komorebi.com.uy/)
 
 > 🛒 E-commerce real • 💳 MercadoPago • ⚡ Redis y colas • 🐳 Docker • 🚀 Producción
 
@@ -46,7 +47,6 @@ Además del desarrollo funcional, trabajé sobre aspectos de **autenticación, p
 * **Docker:** servicios contenerizados para desarrollo y producción
 * **Nginx:** reverse proxy y gateway de entrada
 * **Infraestructura:** Hetzner VPS + Cloudflare
-* **Dominio:** [komorebi.com.uy](https://komorebi.com.uy/)
 
 #### 🎯 Funcionalidades principales
 
@@ -103,13 +103,10 @@ Hetzner VPS
    └── Scheduler
 ```
 
-🔗 **Web**
-
-[Komorebi](https://komorebi.com.uy/)
-
 ---
 
 ### 🛒 Camba  — Angular + Laravel
+[Camba](https://www.camba.com.uy/)
 
 > 🏗️ Arquitectura real • 🚀 Producción • 🧠 Decisiones técnicas • 📦 Fullstack
 
@@ -141,7 +138,7 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 - Separación clara de responsabilidades
 - Infraestructura fácil de levantar, replicar y operar
 
-🔗 [Web](https://www.camba.com.uy/)
+🔗 
 
 🎥 **Video demo (deep dive técnico)**  
 
@@ -161,6 +158,7 @@ la idea es mostrar **cómo se diseña, despliega y mantiene un sistema real en p
 ---
 
 ### 📅 ProConnect — Plataforma SaaS de Servicios Profesionales
+[ProConnect](https://tallerphp.gyabisito.dev/)
 
 > 🚀 SaaS multiusuario • 📅 Reservas y agenda • 💳 Pagos • ⚡ Tiempo real • 🎥 Videollamadas
 
@@ -250,10 +248,6 @@ Hetzner VPS
    ├── Laravel Reverb
    └── LiveKit
 ```
-
-🔗 **Web**
-
-[ProConnect](https://tallerphp.gyabisito.dev/)
 
 🎥 **Video — Presentación técnica y funcional**
 
