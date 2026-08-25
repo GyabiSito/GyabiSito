@@ -102,7 +102,7 @@ Every paddle hit **shrinks the paddle and accelerates the ball**, while players 
 
 📂 [Source Code JavaFX](https://github.com/GyabiSito/pong-javafx) · 📂 [Source Code WebFX](https://github.com/GyabiSito/pong-webfx)
 
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/572e4785-8e63-47a4-85ae-11b046e7c243" />
+<img width="1536" height="1024" alt="PongPreview" src="https://github.com/user-attachments/assets/450ec1cb-1da4-4bfe-b7bd-bff7b7c07a14" />
 
 ---
 
