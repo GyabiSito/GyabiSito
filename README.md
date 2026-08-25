@@ -88,6 +88,23 @@ I worked as **Technical Lead**, supporting implementation and architecture decis
 
 <img width="1672" height="941" alt="c36990ff-abcc-41f6-b8d9-27eed03cb29a" src="https://github.com/user-attachments/assets/78da8316-19ca-44ec-a632-47caa3febeb4" />
 
+---
+
+### 🏓 Pong — Intervened Pong Game
+
+Classic Pong reimagined with custom gameplay mechanics that progressively increase the difficulty during each rally.
+
+Every paddle hit **shrinks the paddle and accelerates the ball**, while players can use a dash ability with cooldown. The game also includes visual impact effects, randomized ball launches, scoring, and Match Point logic.
+
+**Tech:** Java · JavaFX · Object-Oriented Programming · Game Loop
+
+🔗 [Live Application](https://pong.gyabisito.dev/)
+
+📂 [Source Code JavaFX](https://github.com/GyabiSito/pong-javafx) · 📂 [Source Code WebFX](https://github.com/GyabiSito/pong-webfx)
+
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/572e4785-8e63-47a4-85ae-11b046e7c243" />
+
+---
 
 # 📚 Other Projects
 
