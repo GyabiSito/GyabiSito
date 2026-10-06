@@ -33,6 +33,20 @@ Handles the complete online shopping workflow: products, users, cart, payments, 
 
 ---
 
+### 🏗️ Metalúrgica Fabal — Production Corporate Website
+
+Production website developed for a real Uruguayan metalworking company, focused on presenting its services, projects, and contact channels through a fast and responsive experience.
+
+Built with a **mobile-first approach, accessibility, SEO optimization, prerendering, and production-ready containerized infrastructure**.
+
+**Tech:** Angular 22 · TypeScript · Signals · PHP · Docker · Nginx · SEO · Prerendering
+
+🔗 [Live Website](https://metalurgicafabal.com.uy/)
+
+<img width="1672" height="941" alt="previewmetalurgicafabal" src="https://github.com/user-attachments/assets/7dfb468d-f4ba-466e-941d-1e1eb577c1dd" />
+
+---
+
 ### 🛒 Camba — Production E-commerce
 
 Production e-commerce platform developed for a real client, with a sanitized public version available for technical review.
